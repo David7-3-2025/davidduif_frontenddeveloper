@@ -1,0 +1,106 @@
+body {
+    font-family: 'Times New Roman', Times, sans-serif;
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+    background-color: lightblue;
+}
+header {
+    box-sizing: border-box;
+    padding: 5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    font-size: 2.75rem;
+    color: blue;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+nav {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.header_ul_navigatie {
+    box-sizing: border-box;
+    width: 50%;
+    min-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header_li_navigatie {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 24%;
+    min-width: 90px;
+    padding: 18px 24px;
+    background-color: olive;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 4.16%;
+    margin-right: 4.16%;
+}
+.header_li_navigatie:hover {
+    background-color: #00ff00;
+}
+.header_a_navigatie {
+    color: lightyellow;
+    text-decoration: none;
+}
+.header_a_navigatie:hover {
+    color: #333333;
+}
+form {
+    padding: 50px;
+    width: 450px;
+    background-color: aqua;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px groove grey;
+    border-radius: 8px;
+}
+input, textarea, button {
+    display: block;
+    margin: 10px 0;
+    border: 1px groove grey;
+    border-radius: 3px;
+}
+input, textarea {
+    padding: 5px 5px;
+    width: 400px;
+    box-shadow: inset 3px 3px 3px lightgrey;
+}
+input {
+    height: 25px;
+}
+textarea {
+    height: 100px;
+}
+button {
+    padding: 6px;
+    background-color: #00FF00;
+    color: grey;
+    font-size: 1.25rem;
+    margin-top: 2rem;
+}
+button:active {
+    background-color: #004400;
+    color: white;
+}
+footer {
+    padding: 5px;
+    width: 100%;
+    margin-top: 3rem;
+}
+.p_footer {
+    font-size: 20px;
+    width: 80%;
+    color: #333333;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
